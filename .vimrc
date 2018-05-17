@@ -50,7 +50,7 @@
 ":noremap <silent> #5 :!konsole --hold -e "./%" <CR> <CR>" execute bash & python script with F5
 
 " Copy selected text to system clipboard (requires xclip installed):
-" :vnoremap <C-c> "cy<esc>:!echo -n '<C-R>c' \|<space>xclip<CR><enter>
+:vnoremap <C-c> "cy<esc>:!echo -n '<C-R>c' \|<space>xclip<CR><enter>
 
 
 :noremap <silent> #3 :bp<CR> " switch to pervious tab with F3
